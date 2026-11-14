@@ -1,0 +1,19 @@
+{
+  "name": "blue-cola",
+  "version": "1.0.0",
+  "description": "Blue Cola - a themeable web proxy portal built on Ultraviolet and Bare Server",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@titaniumnetwork-dev/ultraviolet": "^1.0.9",
+    "@tomphttp/bare-server-node": "^2.0.3",
+    "express": "^4.19.2"
+  }
+}
